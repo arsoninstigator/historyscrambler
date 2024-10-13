@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Scramble Search History",
+  "version": "1.0",
+  "description": "Scrambles search history to replace sensitive searches with general queries.",
+  "permissions": ["history", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
